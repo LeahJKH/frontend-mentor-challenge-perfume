@@ -7,6 +7,9 @@ body {
 p {
     font-size: 14px;
 }
+h1 {
+    font-size: 30px;
+}
 .attribution { 
     font-size: 11px; 
     text-align: center; 
@@ -19,18 +22,28 @@ p {
     background-color: hsl(0, 0%, 100%);
     display: flex;
     flex-direction: row;
+    width: 500px;
+}
+#Contain-text {
+    margin-right: 30px;
 }
 #image-perfume {
     width: 250px;
-    height: 350px;
+    min-height: 350px;
+    margin-right: 25px;
 }
 #text-main-styling {
     font-size: 16px;
 }
+#title-text-styling {
+
+}
 .mon-class {
     font-family: "Montserrat", sans-serif;
+    word-wrap: break-word;
 }
 .frau-class {
     font-family: "Fraunces", serif;
+    word-wrap: break-word;
 }
   
